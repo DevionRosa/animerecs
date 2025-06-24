@@ -1,0 +1,52 @@
+{
+  "end_area": null,
+  "name": "Nirvana",
+  "gender-id": null,
+  "ipis": [
+    
+  ],
+  "end-area": null,
+  "begin_area": {
+    "type-id": null,
+    "sort-name": "Aberdeen",
+    "name": "Aberdeen",
+    "id": "a640b45c-c173-49b1-8030-973603e895b5",
+    "disambiguation": "",
+    "type": null
+  },
+  "life-span": {
+    "ended": true,
+    "end": "1994-04-05",
+    "begin": "1988-01"
+  },
+  "disambiguation": "90s US grunge band",
+  "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+  "isnis": [
+    "0000000123486830",
+    "0000000123487390"
+  ],
+  "begin-area": {
+    "type-id": null,
+    "sort-name": "Aberdeen",
+    "name": "Aberdeen",
+    "id": "a640b45c-c173-49b1-8030-973603e895b5",
+    "disambiguation": "",
+    "type": null
+  },
+  "sort-name": "Nirvana",
+  "gender": null,
+  "type": "Group",
+  "area": {
+    "sort-name": "United States",
+    "name": "United States",
+    "disambiguation": "",
+    "iso-3166-1-codes": [
+      "US"
+    ],
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type-id": null,
+    "type": null
+  },
+  "country": "US",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+}
