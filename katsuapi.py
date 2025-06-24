@@ -12,10 +12,12 @@ auth_response = requests.post(AUTH_URL, {
 })
 
 auth_response_data = auth_response.json()
-print(auth_response_data)
 access_token = auth_response_data['access_token']
 
 headers = {'Authorization': 'Bearer {token}'.format(token=access_token)}
 
-print("Access Token:")
-print(access_token)
+BASE_URL = "https://kitsu.io/api/edge/anime"
+anime_id = input("Input an anime ID: ")
+r = requests.get(BASE_URL + '/' + anime_id, headers = headers)
+
+print(r.json())
